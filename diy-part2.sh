@@ -20,3 +20,5 @@ sed -i 's/luci-theme-bootstrap/luci-theme-material/g' feeds/luci/collections/luc
 sed -i 's/OpenWrt/Lenovo/g' package/base-files/files/bin/config_generate
 
 sed -i 's/\/bin\/ash/\/bin\/bash/' package/base-files/files/etc/passwd
+
+sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/files/zzz-default-settings
